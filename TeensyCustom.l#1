@@ -826,7 +826,7 @@ https://www.pjrc.com/store/ic_mini54_tqfp.html</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL/16MHZ/SMD-5X3" prefix="Y" uservalue="yes">
+<deviceset name="CRYSTAL/16MHZ/SMD-5X3" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="Q" x="0" y="0"/>
 </gates>
