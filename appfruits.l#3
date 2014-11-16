@@ -7594,6 +7594,11 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </gates>
 <devices>
 <device name="" package="QT_WHEEL">
+<connects>
+<connect gate="G$1" pin="CH0" pad="P2"/>
+<connect gate="G$1" pin="CH1" pad="P1"/>
+<connect gate="G$1" pin="CH2" pad="P0"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
