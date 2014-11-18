@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4307,91 +4307,9 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <circle x="0" y="0" radius="10.4726875" width="0.8128" layer="21"/>
 </package>
 <package name="QT_WHEEL">
-<circle x="0" y="0" radius="16" width="0.5" layer="51"/>
-<circle x="0" y="0" radius="6" width="0.5" layer="51"/>
-<wire x1="6.35" y1="0" x2="16" y2="0" width="0.1" layer="51"/>
-<wire x1="6" y1="-1" x2="16" y2="-1" width="0.1" layer="51"/>
-<wire x1="6" y1="1" x2="16" y2="1" width="0.1" layer="51"/>
-<wire x1="-3" y1="5.1962" x2="-8" y2="13.8564" width="0.1" layer="51"/>
-<wire x1="-2.134" y1="5.6962" x2="-7.134" y2="14.3564" width="0.1" layer="51"/>
-<wire x1="-3.866" y1="4.6962" x2="-8.866" y2="13.3564" width="0.1" layer="51"/>
-<wire x1="-3" y1="-5.1962" x2="-8" y2="-13.8564" width="0.1" layer="51"/>
-<wire x1="-3.866" y1="-4.6962" x2="-8.866" y2="-13.3564" width="0.1" layer="51"/>
-<wire x1="-2.134" y1="-5.6962" x2="-7.134" y2="-14.3564" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="8.7867" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="11.5733" width="0.1" layer="51"/>
-<polygon width="0.1" layer="1">
-<vertex x="6" y="0" curve="-120"/>
-<vertex x="-1.701" y="-5.9462" curve="120"/>
-<vertex x="6.8933" y="-0.5"/>
-<vertex x="7.8933" y="-0.5" curve="-120"/>
-<vertex x="-3.0943" y="-8.3595" curve="120"/>
-<vertex x="9.68" y="-0.5"/>
-<vertex x="10.68" y="-0.5" curve="-120"/>
-<vertex x="-4.4876" y="-10.7728" curve="120"/>
-<vertex x="12.4667" y="-0.5"/>
-<vertex x="13.4667" y="-0.5" curve="-120"/>
-<vertex x="-6.451" y="-14.1734" curve="120"/>
-<vertex x="15" y="0.5" curve="120"/>
-<vertex x="-5.1843" y="11.9795" curve="-120"/>
-<vertex x="12.0733" y="0.5"/>
-<vertex x="11.0733" y="0.5" curve="120"/>
-<vertex x="-3.791" y="9.5661" curve="-120"/>
-<vertex x="9.2867" y="0.5"/>
-<vertex x="8.2867" y="0.5" curve="120"/>
-<vertex x="-2.3976" y="7.1528" curve="-120"/>
-<vertex x="6.5" y="0.5"/>
-<vertex x="5.5" y="0.5" curve="120"/>
-</polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-3" y="5.1962" curve="-120"/>
-<vertex x="6" y="1.5" curve="120"/>
-<vertex x="-3.0137" y="6.2198"/>
-<vertex x="-3.5137" y="7.0858" curve="-120"/>
-<vertex x="8.7867" y="1.5" curve="120"/>
-<vertex x="-4.407" y="8.6331"/>
-<vertex x="-4.907" y="9.4992" curve="-120"/>
-<vertex x="11.5733" y="1.5" curve="120"/>
-<vertex x="-5.8003" y="11.0465"/>
-<vertex x="-6.3003" y="11.9125" curve="-120"/>
-<vertex x="15.5" y="1.5" curve="120"/>
-<vertex x="-7.933" y="12.7404" curve="120"/>
-<vertex x="-7.7824" y="-10.4795" curve="-120"/>
-<vertex x="-6.4697" y="10.2058"/>
-<vertex x="-5.9697" y="9.3398" curve="120"/>
-<vertex x="-6.389" y="-8.0661" curve="-120"/>
-<vertex x="-5.0763" y="7.7925"/>
-<vertex x="-4.5763" y="6.9265" curve="120"/>
-<vertex x="-4.9957" y="-5.6528" curve="-120"/>
-<vertex x="-3.683" y="5.3792"/>
-<vertex x="-3.183" y="4.5131" curve="120"/>
-</polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-3" y="-5.1962" curve="-120"/>
-<vertex x="-4.299" y="4.4462" curve="120"/>
-<vertex x="-3.8797" y="-5.7198"/>
-<vertex x="-4.3797" y="-6.5858" curve="-120"/>
-<vertex x="-5.6924" y="6.8595" curve="120"/>
-<vertex x="-5.273" y="-8.1331"/>
-<vertex x="-5.773" y="-8.9992" curve="-120"/>
-<vertex x="-7.0857" y="9.2728" curve="120"/>
-<vertex x="-6.6663" y="-10.5465"/>
-<vertex x="-7.1663" y="-11.4125" curve="-120"/>
-<vertex x="-9.049" y="12.6734" curve="120"/>
-<vertex x="-7.067" y="-13.2404" curve="120"/>
-<vertex x="12.9667" y="-1.5" curve="-120"/>
-<vertex x="-5.6037" y="-10.7058"/>
-<vertex x="-5.1037" y="-9.8398" curve="120"/>
-<vertex x="10.18" y="-1.5" curve="-120"/>
-<vertex x="-4.2103" y="-8.2925"/>
-<vertex x="-3.7103" y="-7.4265" curve="120"/>
-<vertex x="7.3933" y="-1.5" curve="-120"/>
-<vertex x="-2.817" y="-5.8792"/>
-<vertex x="-2.317" y="-5.0131" curve="120"/>
-</polygon>
-<smd name="P3" x="14.732" y="0" dx="1.27" dy="0.6604" layer="1"/>
-<smd name="P1" x="-3.175" y="5.4864" dx="2.1844" dy="1.0668" layer="1" rot="R120"/>
-<smd name="P2" x="-3.175" y="-5.5118" dx="2.1844" dy="1.0668" layer="1" rot="R240"/>
+<pad name="P0" x="7" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="P1" x="-3.5" y="6.0622" drill="0.8" diameter="1.6764"/>
+<pad name="P2" x="-3.5" y="-6.0622" drill="0.8" diameter="1.6764"/>
 </package>
 <package name="WHEEL_30MM_12MM">
 <wire x1="12" y1="0" x2="30" y2="0" width="0.1" layer="51"/>
@@ -7737,11 +7655,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </gates>
 <devices>
 <device name="" package="QT_WHEEL">
-<connects>
-<connect gate="G$1" pin="CH0" pad="P2"/>
-<connect gate="G$1" pin="CH1" pad="P1"/>
-<connect gate="G$1" pin="CH2" pad="P3"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>

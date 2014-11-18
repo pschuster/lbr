@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -4307,9 +4307,6 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <circle x="0" y="0" radius="10.4726875" width="0.8128" layer="21"/>
 </package>
 <package name="QT_WHEEL">
-<pad name="P0" x="7" y="0" drill="0.8" diameter="1.6764"/>
-<pad name="P1" x="-3.5" y="6.0622" drill="0.8" diameter="1.6764"/>
-<pad name="P2" x="-3.5" y="-6.0622" drill="0.8" diameter="1.6764"/>
 </package>
 <package name="WHEEL_30MM_12MM">
 <wire x1="12" y1="0" x2="30" y2="0" width="0.1" layer="51"/>
@@ -4484,6 +4481,9 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <vertex x="-3.7345" y="-9.9683"/>
 <vertex x="-3.2345" y="-9.1022" curve="120.000579"/>
 </polygon>
+</package>
+<package name="HOLE_M1.6">
+<pad name="GND" x="0" y="0" drill="1.6" diameter="3.2" stop="no" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -4906,6 +4906,10 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <pin name="CH0" x="-2.54" y="15.24" length="middle" rot="R270"/>
 <pin name="CH1" x="0" y="15.24" length="middle" rot="R270"/>
 <pin name="CH2" x="2.54" y="15.24" length="middle" rot="R270"/>
+</symbol>
+<symbol name="MOUNTINGHOLE">
+<circle x="0" y="0" radius="5.6796125" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="8.032184375" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7765,6 +7769,29 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <attribute name="MPN" value="GRM188R60J226MEA0D"/>
 <attribute name="VALUE" value="22uF"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HOLE">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNTINGHOLE">
+<gates>
+<gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M1.6" package="HOLE_M1.6">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -4307,91 +4307,6 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <circle x="0" y="0" radius="10.4726875" width="0.8128" layer="21"/>
 </package>
 <package name="QT_WHEEL">
-<circle x="0" y="0" radius="16" width="0.5" layer="51"/>
-<circle x="0" y="0" radius="5.5" width="0.5" layer="51"/>
-<wire x1="5.5" y1="0" x2="16" y2="0" width="0.1" layer="51"/>
-<wire x1="5.5" y1="-1" x2="16" y2="-1" width="0.1" layer="51"/>
-<wire x1="5.5" y1="1" x2="16" y2="1" width="0.1" layer="51"/>
-<wire x1="-2.75" y1="4.7631" x2="-8" y2="13.8564" width="0.1" layer="51"/>
-<wire x1="-1.884" y1="5.2631" x2="-7.134" y2="14.3564" width="0.1" layer="51"/>
-<wire x1="-3.616" y1="4.2631" x2="-8.866" y2="13.3564" width="0.1" layer="51"/>
-<wire x1="-2.75" y1="-4.7631" x2="-8" y2="-13.8564" width="0.1" layer="51"/>
-<wire x1="-3.616" y1="-4.2631" x2="-8.866" y2="-13.3564" width="0.1" layer="51"/>
-<wire x1="-1.884" y1="-5.2631" x2="-7.134" y2="-14.3564" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="8.445" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="11.39" width="0.1" layer="51"/>
-<polygon width="0.1" layer="1">
-<vertex x="5.5" y="0" curve="-120"/>
-<vertex x="-1.451" y="-5.5131" curve="120"/>
-<vertex x="6.4725" y="-0.5"/>
-<vertex x="7.4725" y="-0.5" curve="-120"/>
-<vertex x="-2.9235" y="-8.0636" curve="120"/>
-<vertex x="9.4175" y="-0.5"/>
-<vertex x="10.4175" y="-0.5" curve="-120"/>
-<vertex x="-4.396" y="-10.614" curve="120"/>
-<vertex x="12.3625" y="-0.5"/>
-<vertex x="13.3625" y="-0.5" curve="-120"/>
-<vertex x="-6.451" y="-14.1734" curve="120"/>
-<vertex x="15" y="0.5" curve="120"/>
-<vertex x="-5.1322" y="11.8893" curve="-120"/>
-<vertex x="11.89" y="0.5"/>
-<vertex x="10.89" y="0.5" curve="120"/>
-<vertex x="-3.6597" y="9.3388" curve="-120"/>
-<vertex x="8.945" y="0.5"/>
-<vertex x="7.945" y="0.5" curve="120"/>
-<vertex x="-2.1872" y="6.7884" curve="-120"/>
-<vertex x="6" y="0.5"/>
-<vertex x="5" y="0.5" curve="120"/>
-</polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-2.75" y="4.7631" curve="-120"/>
-<vertex x="5.5" y="1.5" curve="120"/>
-<vertex x="-2.8032" y="5.8553"/>
-<vertex x="-3.3032" y="6.7214" curve="-120"/>
-<vertex x="8.445" y="1.5" curve="120"/>
-<vertex x="-4.2757" y="8.4058"/>
-<vertex x="-4.7757" y="9.2718" curve="-120"/>
-<vertex x="11.39" y="1.5" curve="120"/>
-<vertex x="-5.7482" y="10.9562"/>
-<vertex x="-6.2482" y="11.8223" curve="-120"/>
-<vertex x="15.5" y="1.5" curve="120"/>
-<vertex x="-7.933" y="12.7404" curve="120"/>
-<vertex x="-7.7303" y="-10.3893" curve="-120"/>
-<vertex x="-6.378" y="10.047"/>
-<vertex x="-5.878" y="9.181" curve="120"/>
-<vertex x="-6.2578" y="-7.8388" curve="-120"/>
-<vertex x="-4.9055" y="7.4966"/>
-<vertex x="-4.4055" y="6.6306" curve="120"/>
-<vertex x="-4.7853" y="-5.2884" curve="-120"/>
-<vertex x="-3.433" y="4.9462"/>
-<vertex x="-2.933" y="4.0801" curve="120"/>
-</polygon>
-<polygon width="0.1" layer="1">
-<vertex x="-2.75" y="-4.7631" curve="-120"/>
-<vertex x="-4.049" y="4.0131" curve="120"/>
-<vertex x="-3.6693" y="-5.3553"/>
-<vertex x="-4.1693" y="-6.2214" curve="-120"/>
-<vertex x="-5.5215" y="6.5636" curve="120"/>
-<vertex x="-5.1418" y="-7.9058"/>
-<vertex x="-5.6418" y="-8.7718" curve="-120"/>
-<vertex x="-6.994" y="9.114" curve="120"/>
-<vertex x="-6.6143" y="-10.4562"/>
-<vertex x="-7.1143" y="-11.3223" curve="-120"/>
-<vertex x="-9.049" y="12.6734" curve="120"/>
-<vertex x="-7.067" y="-13.2404" curve="120"/>
-<vertex x="12.8625" y="-1.5" curve="-120"/>
-<vertex x="-5.512" y="-10.547"/>
-<vertex x="-5.012" y="-9.681" curve="120"/>
-<vertex x="9.9175" y="-1.5" curve="-120"/>
-<vertex x="-4.0395" y="-7.9966"/>
-<vertex x="-3.5395" y="-7.1306" curve="120"/>
-<vertex x="6.9725" y="-1.5" curve="-120"/>
-<vertex x="-2.567" y="-5.4462"/>
-<vertex x="-2.067" y="-4.5801" curve="120"/>
-</polygon>
-<pad name="P0" x="6.5" y="0" drill="0.8" diameter="1.6764"/>
-<pad name="P1" x="-3.25" y="5.6292" drill="0.8" diameter="1.6764"/>
-<pad name="P2" x="-3.25" y="-5.6292" drill="0.8" diameter="1.6764"/>
 </package>
 <package name="WHEEL_30MM_12MM">
 <wire x1="12" y1="0" x2="30" y2="0" width="0.1" layer="51"/>
@@ -4566,6 +4481,9 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <vertex x="-3.7345" y="-9.9683"/>
 <vertex x="-3.2345" y="-9.1022" curve="120.000579"/>
 </polygon>
+</package>
+<package name="HOLE_M1.6">
+<pad name="P$1" x="0" y="0" drill="1.6" diameter="3.2" stop="no" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -4988,6 +4906,10 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <pin name="CH0" x="-2.54" y="15.24" length="middle" rot="R270"/>
 <pin name="CH1" x="0" y="15.24" length="middle" rot="R270"/>
 <pin name="CH2" x="2.54" y="15.24" length="middle" rot="R270"/>
+</symbol>
+<symbol name="MOUNTINGHOLE">
+<circle x="0" y="0" radius="5.6796125" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="8.032184375" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7847,6 +7769,29 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <attribute name="MPN" value="GRM188R60J226MEA0D"/>
 <attribute name="VALUE" value="22uF"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HOLE">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNTINGHOLE">
+<gates>
+<gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M1.6" package="HOLE_M1.6">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
