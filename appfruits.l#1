@@ -4308,90 +4308,90 @@ Matches 4UCONN part # 11026&lt;br&gt;
 </package>
 <package name="QT_WHEEL">
 <circle x="0" y="0" radius="16" width="0.5" layer="51"/>
-<circle x="0" y="0" radius="6" width="0.5" layer="51"/>
-<wire x1="6" y1="0" x2="16" y2="0" width="0.1" layer="51"/>
-<wire x1="6" y1="-1" x2="16" y2="-1" width="0.1" layer="51"/>
-<wire x1="6" y1="1" x2="16" y2="1" width="0.1" layer="51"/>
-<wire x1="-3" y1="5.1962" x2="-8" y2="13.8564" width="0.1" layer="51"/>
-<wire x1="-2.134" y1="5.6962" x2="-7.134" y2="14.3564" width="0.1" layer="51"/>
-<wire x1="-3.866" y1="4.6962" x2="-8.866" y2="13.3564" width="0.1" layer="51"/>
-<wire x1="-3" y1="-5.1962" x2="-8" y2="-13.8564" width="0.1" layer="51"/>
-<wire x1="-3.866" y1="-4.6962" x2="-8.866" y2="-13.3564" width="0.1" layer="51"/>
-<wire x1="-2.134" y1="-5.6962" x2="-7.134" y2="-14.3564" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="8.7867" width="0.1" layer="51"/>
-<circle x="0" y="0" radius="11.5733" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.5" width="0.5" layer="51"/>
+<wire x1="5.5" y1="0" x2="16" y2="0" width="0.1" layer="51"/>
+<wire x1="5.5" y1="-1" x2="16" y2="-1" width="0.1" layer="51"/>
+<wire x1="5.5" y1="1" x2="16" y2="1" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="4.7631" x2="-8" y2="13.8564" width="0.1" layer="51"/>
+<wire x1="-1.884" y1="5.2631" x2="-7.134" y2="14.3564" width="0.1" layer="51"/>
+<wire x1="-3.616" y1="4.2631" x2="-8.866" y2="13.3564" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-4.7631" x2="-8" y2="-13.8564" width="0.1" layer="51"/>
+<wire x1="-3.616" y1="-4.2631" x2="-8.866" y2="-13.3564" width="0.1" layer="51"/>
+<wire x1="-1.884" y1="-5.2631" x2="-7.134" y2="-14.3564" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="8.445" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="11.39" width="0.1" layer="51"/>
 <polygon width="0.1" layer="1">
-<vertex x="6" y="0" curve="-120"/>
-<vertex x="-1.701" y="-5.9462" curve="120"/>
-<vertex x="6.8933" y="-0.5"/>
-<vertex x="7.8933" y="-0.5" curve="-120"/>
-<vertex x="-3.0943" y="-8.3595" curve="120"/>
-<vertex x="9.68" y="-0.5"/>
-<vertex x="10.68" y="-0.5" curve="-120"/>
-<vertex x="-4.4876" y="-10.7728" curve="120"/>
-<vertex x="12.4667" y="-0.5"/>
-<vertex x="13.4667" y="-0.5" curve="-120"/>
+<vertex x="5.5" y="0" curve="-120"/>
+<vertex x="-1.451" y="-5.5131" curve="120"/>
+<vertex x="6.4725" y="-0.5"/>
+<vertex x="7.4725" y="-0.5" curve="-120"/>
+<vertex x="-2.9235" y="-8.0636" curve="120"/>
+<vertex x="9.4175" y="-0.5"/>
+<vertex x="10.4175" y="-0.5" curve="-120"/>
+<vertex x="-4.396" y="-10.614" curve="120"/>
+<vertex x="12.3625" y="-0.5"/>
+<vertex x="13.3625" y="-0.5" curve="-120"/>
 <vertex x="-6.451" y="-14.1734" curve="120"/>
 <vertex x="15" y="0.5" curve="120"/>
-<vertex x="-5.1843" y="11.9795" curve="-120"/>
-<vertex x="12.0733" y="0.5"/>
-<vertex x="11.0733" y="0.5" curve="120"/>
-<vertex x="-3.791" y="9.5661" curve="-120"/>
-<vertex x="9.2867" y="0.5"/>
-<vertex x="8.2867" y="0.5" curve="120"/>
-<vertex x="-2.3976" y="7.1528" curve="-120"/>
-<vertex x="6.5" y="0.5"/>
-<vertex x="5.5" y="0.5" curve="120"/>
+<vertex x="-5.1322" y="11.8893" curve="-120"/>
+<vertex x="11.89" y="0.5"/>
+<vertex x="10.89" y="0.5" curve="120"/>
+<vertex x="-3.6597" y="9.3388" curve="-120"/>
+<vertex x="8.945" y="0.5"/>
+<vertex x="7.945" y="0.5" curve="120"/>
+<vertex x="-2.1872" y="6.7884" curve="-120"/>
+<vertex x="6" y="0.5"/>
+<vertex x="5" y="0.5" curve="120"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-3" y="5.1962" curve="-120"/>
-<vertex x="6" y="1.5" curve="120"/>
-<vertex x="-3.0137" y="6.2198"/>
-<vertex x="-3.5137" y="7.0858" curve="-120"/>
-<vertex x="8.7867" y="1.5" curve="120"/>
-<vertex x="-4.407" y="8.6331"/>
-<vertex x="-4.907" y="9.4992" curve="-120"/>
-<vertex x="11.5733" y="1.5" curve="120"/>
-<vertex x="-5.8003" y="11.0465"/>
-<vertex x="-6.3003" y="11.9125" curve="-120"/>
+<vertex x="-2.75" y="4.7631" curve="-120"/>
+<vertex x="5.5" y="1.5" curve="120"/>
+<vertex x="-2.8032" y="5.8553"/>
+<vertex x="-3.3032" y="6.7214" curve="-120"/>
+<vertex x="8.445" y="1.5" curve="120"/>
+<vertex x="-4.2757" y="8.4058"/>
+<vertex x="-4.7757" y="9.2718" curve="-120"/>
+<vertex x="11.39" y="1.5" curve="120"/>
+<vertex x="-5.7482" y="10.9562"/>
+<vertex x="-6.2482" y="11.8223" curve="-120"/>
 <vertex x="15.5" y="1.5" curve="120"/>
 <vertex x="-7.933" y="12.7404" curve="120"/>
-<vertex x="-7.7824" y="-10.4795" curve="-120"/>
-<vertex x="-6.4697" y="10.2058"/>
-<vertex x="-5.9697" y="9.3398" curve="120"/>
-<vertex x="-6.389" y="-8.0661" curve="-120"/>
-<vertex x="-5.0763" y="7.7925"/>
-<vertex x="-4.5763" y="6.9265" curve="120"/>
-<vertex x="-4.9957" y="-5.6528" curve="-120"/>
-<vertex x="-3.683" y="5.3792"/>
-<vertex x="-3.183" y="4.5131" curve="120"/>
+<vertex x="-7.7303" y="-10.3893" curve="-120"/>
+<vertex x="-6.378" y="10.047"/>
+<vertex x="-5.878" y="9.181" curve="120"/>
+<vertex x="-6.2578" y="-7.8388" curve="-120"/>
+<vertex x="-4.9055" y="7.4966"/>
+<vertex x="-4.4055" y="6.6306" curve="120"/>
+<vertex x="-4.7853" y="-5.2884" curve="-120"/>
+<vertex x="-3.433" y="4.9462"/>
+<vertex x="-2.933" y="4.0801" curve="120"/>
 </polygon>
 <polygon width="0.1" layer="1">
-<vertex x="-3" y="-5.1962" curve="-120"/>
-<vertex x="-4.299" y="4.4462" curve="120"/>
-<vertex x="-3.8797" y="-5.7198"/>
-<vertex x="-4.3797" y="-6.5858" curve="-120"/>
-<vertex x="-5.6924" y="6.8595" curve="120"/>
-<vertex x="-5.273" y="-8.1331"/>
-<vertex x="-5.773" y="-8.9992" curve="-120"/>
-<vertex x="-7.0857" y="9.2728" curve="120"/>
-<vertex x="-6.6663" y="-10.5465"/>
-<vertex x="-7.1663" y="-11.4125" curve="-120"/>
+<vertex x="-2.75" y="-4.7631" curve="-120"/>
+<vertex x="-4.049" y="4.0131" curve="120"/>
+<vertex x="-3.6693" y="-5.3553"/>
+<vertex x="-4.1693" y="-6.2214" curve="-120"/>
+<vertex x="-5.5215" y="6.5636" curve="120"/>
+<vertex x="-5.1418" y="-7.9058"/>
+<vertex x="-5.6418" y="-8.7718" curve="-120"/>
+<vertex x="-6.994" y="9.114" curve="120"/>
+<vertex x="-6.6143" y="-10.4562"/>
+<vertex x="-7.1143" y="-11.3223" curve="-120"/>
 <vertex x="-9.049" y="12.6734" curve="120"/>
 <vertex x="-7.067" y="-13.2404" curve="120"/>
-<vertex x="12.9667" y="-1.5" curve="-120"/>
-<vertex x="-5.6037" y="-10.7058"/>
-<vertex x="-5.1037" y="-9.8398" curve="120"/>
-<vertex x="10.18" y="-1.5" curve="-120"/>
-<vertex x="-4.2103" y="-8.2925"/>
-<vertex x="-3.7103" y="-7.4265" curve="120"/>
-<vertex x="7.3933" y="-1.5" curve="-120"/>
-<vertex x="-2.817" y="-5.8792"/>
-<vertex x="-2.317" y="-5.0131" curve="120"/>
+<vertex x="12.8625" y="-1.5" curve="-120"/>
+<vertex x="-5.512" y="-10.547"/>
+<vertex x="-5.012" y="-9.681" curve="120"/>
+<vertex x="9.9175" y="-1.5" curve="-120"/>
+<vertex x="-4.0395" y="-7.9966"/>
+<vertex x="-3.5395" y="-7.1306" curve="120"/>
+<vertex x="6.9725" y="-1.5" curve="-120"/>
+<vertex x="-2.567" y="-5.4462"/>
+<vertex x="-2.067" y="-4.5801" curve="120"/>
 </polygon>
-<pad name="P0" x="7" y="0" drill="0.8" diameter="1.6764"/>
-<pad name="P1" x="-3.5" y="6.0622" drill="0.8" diameter="1.6764"/>
-<pad name="P2" x="-3.5" y="-6.0622" drill="0.8" diameter="1.6764"/>
+<pad name="P0" x="6.5" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="P1" x="-3.25" y="5.6292" drill="0.8" diameter="1.6764"/>
+<pad name="P2" x="-3.25" y="-5.6292" drill="0.8" diameter="1.6764"/>
 </package>
 <package name="WHEEL_30MM_12MM">
 <wire x1="12" y1="0" x2="30" y2="0" width="0.1" layer="51"/>
@@ -6414,6 +6414,149 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
+<device name="470" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ471V"/>
+<attribute name="VALUE" value="470"/>
+</technology>
+</technologies>
+</device>
+<device name="1K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ102V"/>
+<attribute name="VALUE" value="1K"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ472V"/>
+<attribute name="VALUE" value="4.7"/>
+</technology>
+</technologies>
+</device>
+<device name="10K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ103V"/>
+<attribute name="VALUE" value="10K"/>
+</technology>
+</technologies>
+</device>
+<device name="22" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ220V" constant="no"/>
+<attribute name="VALUE" value="22"/>
+</technology>
+</technologies>
+</device>
+<device name="33" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ330V"/>
+<attribute name="VALUE" value="33"/>
+</technology>
+</technologies>
+</device>
+<device name="47K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERJ-3EKF4702V"/>
+<attribute name="VALUE" value="47K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ202V"/>
+<attribute name="VALUE" value="2K"/>
+</technology>
+</technologies>
+</device>
+<device name="220K" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ224V"/>
+<attribute name="VALUE" value="220K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.2M" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ125V"/>
+<attribute name="VALUE" value="1.2M"/>
+</technology>
+</technologies>
+</device>
+<device name="2M" package="0603-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic"/>
+<attribute name="MPN" value="ERJ-3GEYJ205V"/>
+<attribute name="VALUE" value="2M"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="JST_2MM_MALE" prefix="J" uservalue="yes">
@@ -7623,6 +7766,87 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="-1.27"/>
+</gates>
+<devices>
+<device name="GENERIC" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.1UF" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet"/>
+<attribute name="MPN" value="C0603C104J3RACTU"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="18PF" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MPN" value="C0603C180J5GACTU"/>
+<attribute name="VALUE" value="18pF"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7UF" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MPN" value="GRM188R60J475KE19D"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="10UF" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J106ME47D"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="22UF" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J226MEA0D"/>
+<attribute name="VALUE" value="22uF"/>
+</technology>
 </technologies>
 </device>
 </devices>
