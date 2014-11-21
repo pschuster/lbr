@@ -4575,8 +4575,6 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <text x="9.7282" y="-13.462" size="0.8128" layer="21" rot="R45" align="bottom-center">CH0</text>
 <text x="11.557" y="-11.5316" size="0.8128" layer="21" rot="R45" align="bottom-center">CH1</text>
 <text x="13.4366" y="-9.7028" size="0.8128" layer="21" rot="R45" align="bottom-center">CH2</text>
-<attribute name="NAME" x="21.376934375" y="2.373246875" size="1.27" layer="51" ratio="10" rot="R45"/>
-<attribute name="VALUE" x="24.9690375" y="-1.111090625" size="1.27" layer="51" rot="R45"/>
 <circle x="0" y="0" radius="5" width="0.1" layer="21"/>
 <wire x1="2.952" y1="-16.7417" x2="8.5" y2="-14.7224" width="0.1" layer="21" curve="30"/>
 <wire x1="8.5" y1="-14.7224" x2="9.9498" y2="-16.1865" width="0.1" layer="21"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4596,9 +4596,9 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <wire x1="-2.952" y1="-16.7417" x2="-2.955" y2="-18.7688" width="0.1" layer="21"/>
 <wire x1="-2.955" y1="-18.7688" x2="2.955" y2="-18.7688" width="0.1" layer="21" curve="180"/>
 <wire x1="2.955" y1="-18.7688" x2="2.952" y2="-16.7417" width="0.1" layer="21"/>
-<hole x="16.4545" y="9.5" drill="2"/>
-<hole x="-16.4545" y="9.5" drill="2"/>
-<hole x="0" y="-19" drill="2"/>
+<hole x="16.4545" y="9.5" drill="4"/>
+<hole x="-16.4545" y="9.5" drill="4"/>
+<hole x="0" y="-19" drill="4"/>
 <wire x1="13.1416625" y1="-11.334909375" x2="13.1416625" y2="-10.436884375" width="0.2032" layer="21"/>
 <wire x1="13.1416625" y1="-10.436884375" x2="14.0396875" y2="-9.53885625" width="0.2032" layer="21"/>
 <wire x1="14.0396875" y1="-9.53885625" x2="14.9377125" y2="-9.53885625" width="0.2032" layer="21"/>
@@ -4619,9 +4619,9 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <wire x1="10.447584375" y1="-15.8250375" x2="11.3456125" y2="-15.8250375" width="0.2032" layer="21"/>
 <wire x1="12.2436375" y1="-14.9270125" x2="11.3456125" y2="-15.8250375" width="0.2032" layer="21"/>
 <wire x1="14.9377125" y1="-9.53885625" x2="15.835740625" y2="-10.436884375" width="0.2032" layer="21"/>
-<pad name="1" x="10.8966" y="-14.478" drill="1.016" diameter="1.8796" rot="R135"/>
-<pad name="2" x="12.69265" y="-12.681946875" drill="1.016" diameter="1.8796" rot="R135"/>
-<pad name="3" x="14.4887" y="-10.885896875" drill="1.016" diameter="1.8796" rot="R135"/>
+<pad name="CH0" x="10.8966" y="-14.478" drill="1.016" diameter="1.8796" rot="R135"/>
+<pad name="CH1" x="12.69265" y="-12.681946875" drill="1.016" diameter="1.8796" rot="R135"/>
+<pad name="CH2" x="14.4887" y="-10.885896875" drill="1.016" diameter="1.8796" rot="R135"/>
 <rectangle x1="14.2347" y1="-11.139896875" x2="14.7427" y2="-10.631896875" layer="51" rot="R45"/>
 <rectangle x1="12.43865" y1="-12.935946875" x2="12.94665" y2="-12.427946875" layer="51" rot="R45"/>
 <rectangle x1="10.6426" y1="-14.732" x2="11.1506" y2="-14.224" layer="51" rot="R45"/>
@@ -7947,7 +7947,12 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <gate name="G$1" symbol="WHEEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="QTWHEELMODULE">
+<connects>
+<connect gate="G$1" pin="CH0" pad="CH0"/>
+<connect gate="G$1" pin="CH1" pad="CH1"/>
+<connect gate="G$1" pin="CH2" pad="CH2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
