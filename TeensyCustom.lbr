@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -233,6 +233,7 @@
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <circle x="-2.8" y="-2.8" radius="0.22360625" width="0.127" layer="21"/>
+<text x="0" y="-3.175" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="HC49U-V">
 <description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
@@ -608,7 +609,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MK20DX128VLH5">
+<deviceset name="MK20DX128VLH5" prefix="U">
 <description>Teensy 3.0 Processing Unit - MK20DX128VLH5 ARM Cortex M0
 
 Datasheet: http://cache.freescale.com/files/32bit/doc/data_sheet/K20P64M50SF0.pdf</description>
@@ -684,7 +685,7 @@ Datasheet: http://cache.freescale.com/files/32bit/doc/data_sheet/K20P64M50SF0.pd
 </device>
 </devices>
 </deviceset>
-<deviceset name="MINI54TAN">
+<deviceset name="MINI54TAN" prefix="U">
 <description>MINI54TAN Bootloader from PJRC.com, preprogrammed with Teensy 3.0 bootloader.
 
 https://www.pjrc.com/store/ic_mini54_tqfp.html</description>
